@@ -50,7 +50,7 @@ p {
     width: 100%;
     max-width: 122.5rem;
     margin: 0 auto;
-    padding: 0 2.4rem;
+    padding: 0 1rem;
 }
 
 
@@ -420,9 +420,6 @@ footer {
     animation: up 1s infinite;
 }
 
-.footer-content {
-    overflow: hidden;
-}
 
 .footer-content h4 {
     font-size: 1.9rem;
@@ -489,7 +486,7 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 20rem;
+    margin-left: 15rem;
 
 }
 
@@ -498,7 +495,7 @@ footer {
 
 @media screen and (min-width: 900px) {
     section {
-        padding: 0 7.9rem;
+        padding: 7.9rem;
     }
 
     .menu-toggle {
@@ -565,6 +562,14 @@ footer {
 
     .padding-right {
         padding: 7rem;
+    }
+
+    .footer-content {
+        overflow: hidden;
+    }
+
+    .newsletter-btn {
+        margin-left: 20rem;
     }
 
     /* .footer-content {
